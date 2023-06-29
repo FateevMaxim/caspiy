@@ -44,7 +44,7 @@ class ProductController extends Controller
             $wordsFromFile[] = [
                 'track_code' => $ar,
                 'to_almaty' => date(now()),
-                'status' => 'Получено на складе в Атырау',
+                'status' => 'Получено на складе в Актау',
                 'reg_almaty' => 1,
                 'updated_at' => date(now()),
             ];
